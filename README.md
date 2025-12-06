@@ -27,6 +27,7 @@ Aplikasi Inventaris Mobile adalah aplikasi Flutter yang digunakan untuk mengelol
 ## Demo Video
 
 [Link Video Demo Aplikasi](record/Final.webm) - Video demo aplikasi inventaris mobile
+[Final.webm](https://github.com/user-attachments/assets/5b22253f-5dc5-4dde-bf8f-1a5f8cd27ef8)
 
 ---
 
@@ -1153,88 +1154,4 @@ lib/
     └── api_service.dart       # Alternative API service layer
 ```
 
----
 
-## Teknologi yang Digunakan
-
-- **Flutter** 3.35.3
-- **Dart** 3.9.2
-- **Provider** - State management
-- **http** - HTTP client library
-- **shared_preferences** - Local storage
-- **Material Design 3** - UI Framework
-
----
-
-## Cara Menjalankan Aplikasi
-
-### Prerequisites
-
-1. Flutter SDK installed
-2. Android Emulator atau Physical Device
-3. Backend CI4 running di `http://10.0.2.2:8080`
-
-### Langkah-langkah
-
-```bash
-# Clone repository
-git clone https://github.com/Nugrahhadi/Responsi2Mobile-Paket1.git
-
-# Navigate ke folder project
-cd Responsi2Mobile-Paket1
-
-# Get dependencies
-flutter pub get
-
-# Run aplikasi
-flutter run
-```
-
----
-
-## Testing Aplikasi
-
-### Test Login
-
-```
-Username: Nugrahhadi
-Password: Hadi123
-```
-
-### Test Register
-
-1. Buat username dan password baru
-2. Confirm password sama dengan password
-3. Klik Register
-4. Login dengan akun baru
-
-### Test CRUD Inventaris
-
-1. **Create**: Klik tombol `+` di home screen, isi form, klik `Tambah`
-2. **Read**: Lihat daftar inventaris di home screen
-3. **Update**: Klik item di list, ubah data, klik `Update`
-4. **Delete**: Klik item, geser kiri atau klik delete, confirm
-
----
-
-## Catatan Penting
-
-- Token disimpan di SharedPreferences dan dikirim otomatis di setiap request
-- Aplikasi menggunakan Nginx vhost `Responsi_2_Mobile.test` untuk routing
-- Data harga dan jumlah dari API bisa berupa String atau integer, sudah ditangani dengan safe parsing
-- Untuk physical device, ubah `baseUrl` dari `10.0.2.2` menjadi `192.168.1.4`
-
----
-
-## Author
-
-**Muhammad Nugrahhadi Al Khawarizmi**
-
-- NIM: H1D023055
-- Shift: A (Shift Asal: G)
-
----
-
-## Lisensi
-
-Proyek ini dibuat untuk keperluan akademik Praktikum Pemrograman Mobile.
