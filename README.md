@@ -25,9 +25,7 @@ Aplikasi Inventaris Mobile adalah aplikasi Flutter yang digunakan untuk mengelol
 ---
 
 ## Demo Video
-
-[Link Video Demo Aplikasi](record/Final.webm) - Video demo aplikasi inventaris mobile
-[Final.webm](https://github.com/user-attachments/assets/5b22253f-5dc5-4dde-bf8f-1a5f8cd27ef8)
+https://github.com/user-attachments/assets/075b2180-7833-48fc-bb31-9098660c331d
 
 ---
 
